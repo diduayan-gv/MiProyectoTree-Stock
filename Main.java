@@ -19,7 +19,7 @@ public class Main {
                 case 1:
                     System.out.print("Ingrese ID: ");
                     int id = sc.nextInt();
-                    sc.nextLine(); // Limpiar buffer
+                    sc.nextLine();
                     System.out.print("Ingrese Nombre: ");
                     String nombre = sc.nextLine();
                     inventario.insertar(id, nombre);
@@ -40,7 +40,7 @@ public class Main {
                     }
                     break;
                 case 0:
-                    System.out.println("Saliendo...");
+                    System.out.println("Finalizado.");
                     break;
                 default:
                     System.out.println("Opción inválida.");
