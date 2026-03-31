@@ -7,7 +7,7 @@ public class Main {
         int opcion;
 
         do {
-            System.out.println("\n--- SISTEMA TREE-STOCK ---");
+            System.out.println("\n SISTEMA TREE-STOCK");
             System.out.println("1. Registrar Producto");
             System.out.println("2. Mostrar Inventario (Ordenado)");
             System.out.println("3. Buscar Producto");
@@ -26,7 +26,7 @@ public class Main {
                     System.out.println("Producto registrado.");
                     break;
                 case 2:
-                    System.out.println("\n--- LISTADO DE PRODUCTOS ---");
+                    System.out.println("\n LISTADO DE PRODUCTOS");
                     inventario.mostrarInorden(inventario.raiz);
                     break;
                 case 3:
